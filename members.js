@@ -1,4 +1,4 @@
-const members = [
+
 const members  = [
     {
         firsName: 'John',
