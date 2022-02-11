@@ -21,6 +21,12 @@ if (command === "list") {
 }
 
 function runListCommand() {
+  
+  for(let i = 0; i < names.length; i++) {
+  console.log(`${names[i].firstName} ${names[i].lastName}`);
+  }
   // Replace this with your implementation
   console.log("Called the list command");
 }
+
+  
